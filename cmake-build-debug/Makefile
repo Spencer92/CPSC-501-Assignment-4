@@ -122,6 +122,33 @@ CPSC_Assign_4/fast:
 	$(MAKE) -f CMakeFiles\CPSC_Assign_4.dir\build.make CMakeFiles/CPSC_Assign_4.dir/build
 .PHONY : CPSC_Assign_4/fast
 
+Convolve.obj: Convolve.cpp.obj
+
+.PHONY : Convolve.obj
+
+# target to build an object file
+Convolve.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPSC_Assign_4.dir\build.make CMakeFiles/CPSC_Assign_4.dir/Convolve.cpp.obj
+.PHONY : Convolve.cpp.obj
+
+Convolve.i: Convolve.cpp.i
+
+.PHONY : Convolve.i
+
+# target to preprocess a source file
+Convolve.cpp.i:
+	$(MAKE) -f CMakeFiles\CPSC_Assign_4.dir\build.make CMakeFiles/CPSC_Assign_4.dir/Convolve.cpp.i
+.PHONY : Convolve.cpp.i
+
+Convolve.s: Convolve.cpp.s
+
+.PHONY : Convolve.s
+
+# target to generate assembly for a file
+Convolve.cpp.s:
+	$(MAKE) -f CMakeFiles\CPSC_Assign_4.dir\build.make CMakeFiles/CPSC_Assign_4.dir/Convolve.cpp.s
+.PHONY : Convolve.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... CPSC_Assign_4
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Convolve.obj
+	@echo ... Convolve.i
+	@echo ... Convolve.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

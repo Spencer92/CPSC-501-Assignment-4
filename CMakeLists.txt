@@ -3,5 +3,5 @@ project(CPSC_Assign_4)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp Convolve.cpp)
 add_executable(CPSC_Assign_4 ${SOURCE_FILES})

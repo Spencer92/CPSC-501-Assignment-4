@@ -34,7 +34,7 @@ int main(int argc, char** argv) {
         fileLength++;
     }
     audioFile.close();
-    audioFile.open("END.wav");
+    audioFile.open("FluteDry.wav");
     float newValues[fileLength];
     int index = 0;
     while(!audioFile.eof())
@@ -47,16 +47,9 @@ int main(int argc, char** argv) {
             digit += (unsigned short) part_of_digit;
         }
 
-        if(index >= fileLength)
+        if(index < fileLength)
         {
-            if(digit < 0)
-            {
-                newValues[index] = (float) digit/NEGATIVE_FLOAT;
-            }
-            else
-            {
-                newValues[index] = (float) digit/POSITIVE_FLOAT;
-            }
+            newValues[index] = (float) digit/NEGATIVE_FLOAT;
             index++;
         }
 

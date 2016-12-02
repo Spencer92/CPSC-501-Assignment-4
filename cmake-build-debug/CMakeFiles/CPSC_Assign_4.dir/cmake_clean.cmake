@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CPSC_Assign_4.dir/main.cpp.obj"
+  "CMakeFiles/CPSC_Assign_4.dir/Convolve.cpp.obj"
   "CPSC_Assign_4.pdb"
   "CPSC_Assign_4.exe"
   "CPSC_Assign_4.exe.manifest"
